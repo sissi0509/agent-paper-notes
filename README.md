@@ -8,7 +8,7 @@ The rule for every paper: **explain it simply, then build a tiny version of it.*
 
 | # | Paper | Year | What I built | Status |
 |---|---|---|---|---|
-| 01 | [ReAct](01-react/) | 2022 | Think → act → observe loop with one tool | ⬜ |
+| 01 | [ReAct](01-react/) | 2022 | Think → act → observe loop with one tool | 🟨 |
 | 02 | SWE-agent: Agent-Computer Interfaces | 2024 | — | ⬜ |
 | 03 | Why Do Multi-Agent LLM Systems Fail? | 2025 | — | ⬜ |
 | 04 | Mem0: long-term memory for agents | 2025 | — | ⬜ |
