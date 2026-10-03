@@ -47,7 +47,3 @@ These solutions are my current understanding, not proven answers. Later papers (
 - **Put safety checks in code, not in the prompt.** Step limits and loop detection should not depend on the model noticing its own mistakes.
 - **Design tools for the model.** Clear outputs and helpful error messages matter as much as the model itself.
 
----
-
-## Applied to my project
-_TODO: the negotiation trainer v2 planner will be a ReAct-style agent (thinks before and after each tool call, with a step cap and loop detection in code). Link the code here once it's built._

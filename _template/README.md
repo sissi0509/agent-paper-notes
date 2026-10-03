@@ -17,5 +17,5 @@
 
 ---
 
-## Applied to my project
-<Which idea from this paper I used in my negotiation-training system, where in the code, and what changed (before → after).>
+## Applied to my project (optional)
+<Only if I actually used an idea from this paper in a real system: where, and what changed (before → after). Otherwise delete this section.>
