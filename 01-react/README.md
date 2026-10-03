@@ -1,22 +1,24 @@
 # ReAct: Synergizing Reasoning and Acting in Language Models
 
-**Paper:** Yao et al., 2022. https://arxiv.org/abs/2210.03629
-**Read on:** <date>
+**Paper:** Yao et al., 2022 (ICLR 2023). https://arxiv.org/abs/2210.03629
+**Read on:** 2026-10-03
 
-## The problem
+## 1. The problem
 <What wasn't working before this paper? 2-3 sentences.>
 
-## The key idea
-<The one insight, explained simply. A diagram or tiny example helps.>
+## 2. How it solves it
+<The key idea, explained simply. A diagram or tiny example helps.>
 
-## What surprised me
-<What I didn't expect, or the clever step in their reasoning.>
+## 3. Limitations
+<Where it falls short: what the paper admits, and what I noticed myself.>
+
+## 4. What I learned for building agents
+<How this changes the way I design agents: what to pay attention to, what to avoid.>
+
+---
 
 ## What I built
 <What the code here does, how it maps to the paper, and what I simplified.>
 
 ## What I found
 <Results from running it: what worked, what broke, what I'd try next.>
-
-## Connection to my work
-<Optional: how this applies to RoleLens or other projects.>
