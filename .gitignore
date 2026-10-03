@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# paper PDFs stay local (link to arXiv in each README instead)
+*.pdf
