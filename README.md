@@ -1,32 +1,28 @@
-# paper-to-code
+# agent-paper-notes
 
-Reading recent AI papers, mostly on **LLM agents**, some on **AI infrastructure**, and rebuilding each core idea as a small, readable implementation.
+My notes on recent papers about **LLM agents**: what problem each paper solves, how it solves it, where it falls short, and what it teaches me about building agents.
 
-The rule for every paper: **explain it simply, and write down what it teaches me about building agents.** If an idea gets used in a real system, I link it. If I can't explain it, I don't understand it yet.
+The rule for every paper: **explain it simply, and write down what it changes about how I build agents.** If I can't explain it simply, I don't understand it yet.
 
 ## Papers
 
 | # | Paper | Year | Main lesson | Status |
 |---|---|---|---|---|
 | 01 | [ReAct](01-react/) | 2022 | Think before and after every tool call | ✅ |
-| 02 | SWE-agent: Agent-Computer Interfaces | 2024 | — | ⬜ |
+| 02 | Building Effective Agents (Anthropic, blog post) | 2024 | — | ⬜ |
 | 03 | Why Do Multi-Agent LLM Systems Fail? | 2025 | — | ⬜ |
 | 04 | Mem0: long-term memory for agents | 2025 | — | ⬜ |
-| 05 | Agentic Context Engineering (ACE) | 2025 | — | ⬜ |
+| 05 | SWE-agent: Agent-Computer Interfaces | 2024 | — | ⬜ |
 
 ⬜ not started · 🟨 in progress · ✅ done
 
-## Folder layout
+## Format
 
-Each paper gets one folder (`NN-short-name/`) with:
-- `README.md`: my 1-page explanation (see [`_template/README.md`](_template/README.md))
-- (optional) where I applied the idea in a real project
-- `notes.md` (optional): rough notes, open questions
+Each paper gets one folder (`NN-short-name/`) with a `README.md` (see [`_template/README.md`](_template/README.md)):
+1. **The problem**: what wasn't working before
+2. **How it solves it**: the key idea, explained simply
+3. **Limitations**: what the paper admits, and what I noticed
+4. **What I learned for building agents**
+5. *(optional)* where I applied the idea in a real project
 
-## Running
-
-```bash
-cp .env.example .env   # add your own API key
-pip install -r requirements.txt
-python 01-react/main.py
-```
+Paper PDFs stay local; each README links to the original.
