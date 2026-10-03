@@ -17,8 +17,5 @@
 
 ---
 
-## What I built
-<What the code here does, how it maps to the paper, and what I simplified.>
-
-## What I found
-<Results from running it: what worked, what broke, what I'd try next.>
+## Applied to my project
+<Which idea from this paper I used in my negotiation-training system, where in the code, and what changed (before → after).>

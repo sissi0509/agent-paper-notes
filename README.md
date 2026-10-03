@@ -2,13 +2,13 @@
 
 Reading recent AI papers, mostly on **LLM agents**, some on **AI infrastructure**, and rebuilding each core idea as a small, readable implementation.
 
-The rule for every paper: **explain it simply, then build a tiny version of it.** If I can't do both, I don't understand it yet.
+The rule for every paper: **explain it simply, then apply one idea to a real system**, my multi-agent negotiation-training platform. If I can't explain it, I don't understand it yet.
 
 ## Papers
 
-| # | Paper | Year | What I built | Status |
+| # | Paper | Year | Applied to my project | Status |
 |---|---|---|---|---|
-| 01 | [ReAct](01-react/) | 2022 | Think → act → observe loop with one tool | 🟨 |
+| 01 | [ReAct](01-react/) | 2022 | Planner as a ReAct agent (planned) | 🟨 |
 | 02 | SWE-agent: Agent-Computer Interfaces | 2024 | — | ⬜ |
 | 03 | Why Do Multi-Agent LLM Systems Fail? | 2025 | — | ⬜ |
 | 04 | Mem0: long-term memory for agents | 2025 | — | ⬜ |
@@ -20,7 +20,7 @@ The rule for every paper: **explain it simply, then build a tiny version of it.*
 
 Each paper gets one folder (`NN-short-name/`) with:
 - `README.md`: my 1-page explanation (see [`_template/README.md`](_template/README.md))
-- the code: small, runnable, no frameworks unless the paper is *about* a framework
+- an "Applied to my project" section linking to where the idea is used
 - `notes.md` (optional): rough notes, open questions
 
 ## Running

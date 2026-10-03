@@ -49,10 +49,5 @@ These solutions are my current understanding, not proven answers. Later papers (
 
 ---
 
-## What I built
-
-_TODO: a minimal ReAct loop (Thought → Action → Observation) with one tool._
-
-## What I found
-
-_TODO_
+## Applied to my project
+_TODO: the negotiation trainer v2 planner will be a ReAct-style agent (thinks before and after each tool call, with a step cap and loop detection in code). Link the code here once it's built._
