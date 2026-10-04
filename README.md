@@ -9,7 +9,7 @@ The rule for every paper: **explain it simply, and write down what it changes ab
 | # | Paper | Year | Main lesson | Status |
 |---|---|---|---|---|
 | 01 | [ReAct](01-react/) | 2022 | Think before and after every tool call | ✅ |
-| 02 | Building Effective Agents (Anthropic, blog post) | 2024 | — | ⬜ |
+| 02 | [Building Effective Agents](02-building-effective-agents/) (Anthropic, blog post) | 2024 | Use the simplest design that works; tools are an interface for the model | ✅ |
 | 03 | Why Do Multi-Agent LLM Systems Fail? | 2025 | — | ⬜ |
 | 04 | Mem0: long-term memory for agents | 2025 | — | ⬜ |
 | 05 | SWE-agent: Agent-Computer Interfaces | 2024 | — | ⬜ |
